@@ -1,0 +1,52 @@
+-- RMU SESSION 2 | PROBLEM 3
+
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
+For this exercise, we'll be kicking it old school and writing text based
+adventure games.  The theme and a lot of the details are up to you, as long as
+you follow the guidelines below.
+
+== GUIDELINES
+
+* The game should start off by displaying some text about where the player is, 
+  the items nearby, and the paths that lead away from the starting point.
+
+* Players interact with the game world by typing commands in plain text, such
+  as 'go west', or 'pick up bucket'.  The following actions should be supported:
+    go [place]
+    look at [thing]
+    pick up [thing]
+    drop [thing]
+    use [thing] (NOTE: Needs to be picked up first)
+
+  You can add aliases for these words to make language more natural in the game,
+  and add your own verbs if you'd like.
+
+* The goal of the game is to explore the world, and use the things within the
+  world to accomplish tasks. Here is a possible scenario:  "The player finds a thirsty
+  kitten sitting in one of the rooms, but there is no water nearby.  There is a
+  bucket hidden somewhere in the world, and a nearby river where you can get
+  water.  The player must locate and pickup the bucket, bring it to the river
+  and use it there so that it becomes a bucket full of water.   Using the bucket
+  full of water with the kitten saves the kittens life, causing the player to
+  win the game".   You of course, are welcome to come up with something far
+  less lame.
+
+* You should include at least five items, and at least 15 places in your game.
+  It should be necessary to use at least some of the items to win the game.
+
+* For extra credit, add support for items that can be combined together to
+  form a different item.  For example, apples and pie crust, when used in a room
+  with an oven in it, can become an apple pie.
+
+* If this project seems like a lot of work, try to focus on building a useful
+  subset of its functionality which is well written in clear objected oriented
+  Ruby code.  Automated tests are strongly encouraged.
+
+* You are welcome to discuss this problem with your fellow students, and are
+  encouraged to discuss the language you'll support within your game.  Agreeing
+  on a common vocabulary will help make it easier to play each other's games.
+
+== QUESTIONS?
+
+Hit up the mailing list or IRC.
